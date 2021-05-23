@@ -1,4 +1,7 @@
-# ThreeJS TypeScript Starter
+# ThreeJS Transparent Unreal Bloom Pass Example
+
+This example illustrates a fix to UnrealBloomPass in ThreeJS that won't allow transparent backgrounds to work. 
+https://github.com/mrdoob/three.js/issues/14104#issuecomment-429664412
 
 [![TypeScript](https://badges.frapsoft.com/typescript/love/typescript-125x28.png?v=101)](https://github.com/ellerbrock/typescript-badges/)
 
@@ -19,7 +22,7 @@ Just get started with editing your typescript code in: `./src/index.ts`
 * See `webpack.config.js` for configuration
 
 ## Ending thoughts
-
+  
 
 [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/sudomax.svg?style=social&label=Follow%20%40sudomax)](https://twitter.com/sudomax)
 

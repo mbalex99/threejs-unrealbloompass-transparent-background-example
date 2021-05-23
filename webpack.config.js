@@ -1,9 +1,10 @@
 const path = require("path");
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 module.exports = {
   mode: "development",
-  devtool: "eval-cheap-source-map",
+  devtool: "inline-source-map",
   entry: "./src/index.ts",
   module: {
     rules: [
@@ -31,6 +32,9 @@ module.exports = {
       filename: "index.html",
       hash: true,
       template: "./src/index.ejs",
+    }),
+    new CopyWebpackPlugin({
+      patterns: [{ from: "./src/assets/", to: "assets" }],
     }),
   ],
 };
