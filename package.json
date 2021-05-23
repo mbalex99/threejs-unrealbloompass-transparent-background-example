@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "npm run start",
     "dev": "webpack serve --config webpack.config.js"
   },
   "author": "",
