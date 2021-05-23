@@ -1,5 +1,7 @@
 # ThreeJS Fixed UnrealBloomPass for Transparent Backgrounds
 
+[Visit the example here](https://mbalex99.github.io/threejs-unrealbloompass-transparent-background-example/)
+
 This example illustrates a fix to UnrealBloomPass in ThreeJS that won't allow transparent backgrounds to work. 
 
 The issue is described here:
