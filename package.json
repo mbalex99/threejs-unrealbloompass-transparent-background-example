@@ -6,7 +6,8 @@
   "scripts": {
     "start": "npm run start",
     "dev": "webpack serve --config webpack.config.js",
-    "build": "rm -rf ./dist && webpack build"
+    "build": "rm -rf ./dist && webpack build",
+    "deploy": "npm run build && gh-pages --dist 'dist' --branch 'release'"
   },
   "author": "",
   "license": "ISC",
@@ -18,6 +19,7 @@
   "devDependencies": {
     "@types/lodash": "^4.14.170",
     "copy-webpack-plugin": "^9.0.0",
+    "gh-pages": "^3.1.0",
     "html-webpack-plugin": "^5.3.1",
     "ts-loader": "^9.2.2",
     "typescript": "^4.2.4",

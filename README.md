@@ -1,6 +1,8 @@
-# ThreeJS Transparent Unreal Bloom Pass Example
+# ThreeJS Fixed UnrealBloomPass for Transparent Backgrounds
 
 This example illustrates a fix to UnrealBloomPass in ThreeJS that won't allow transparent backgrounds to work. 
+
+The issue is described here:
 https://github.com/mrdoob/three.js/issues/14104#issuecomment-429664412
 
 [![TypeScript](https://badges.frapsoft.com/typescript/love/typescript-125x28.png?v=101)](https://github.com/ellerbrock/typescript-badges/)
